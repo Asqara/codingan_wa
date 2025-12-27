@@ -4,26 +4,13 @@ Pastikan perangkat sudah terinstall:
 
 Node.js versi 18 LTS atau 20 LTS
 👉 Cek versi:
-
+```bash
 node -v
-
+```
 npm (biasanya sudah termasuk Node.js)
-
+```bash
 npm -v
-
-📂 Struktur Folder
-project-folder/
-│
-
-├── index.js
-
-├── data_ilkom.csv
-
-├── package.json
-
-├── README.md
-
-└── auth_alfath/ (otomatis dibuat setelah login WA)
+```
 
 📦 Install Dependency
 
