@@ -14,10 +14,15 @@ npm -v
 📂 Struktur Folder
 project-folder/
 │
+
 ├── index.js
+
 ├── data_ilkom.csv
+
 ├── package.json
+
 ├── README.md
+
 └── auth_alfath/ (otomatis dibuat setelah login WA)
 
 📦 Install Dependency
