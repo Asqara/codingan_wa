@@ -23,19 +23,19 @@ project-folder/
 📦 Install Dependency
 
 Masuk ke folder project, lalu jalankan:
-
+```bash
 npm install @whiskeysockets/baileys express cors qrcode-terminal
-
+```
 📌 Jika ingin lebih stabil (direkomendasikan):
-
+```bash
 npm install pino axios ws sharp
-
+```
 ▶️ Menjalankan Aplikasi (Lokal)
 
 Jalankan file utama:
-
+```bash
 node index.js
-
+```
 Jika berhasil, terminal akan menampilkan QR Code WhatsApp.
 
 🔑 Login WhatsApp
@@ -76,9 +76,11 @@ Session expired, delete auth_alfath
 
 Solusi:
 
-rm -rf auth_alfath
+hapus folder auth_alfath
+dan jalankan ulang
+```bash
 node index.js
-
+```
 Lalu scan QR ulang.
 
 🛑 Menghentikan Program
